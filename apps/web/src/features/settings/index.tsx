@@ -12,6 +12,7 @@ import {
 import { Button } from '@/shared/components/ui/button';
 import { MoonIcon, SunIcon } from 'lucide-react';
 import { MFADialog } from './components/mfa-dialog';
+import SMS from './components/sms';
 import { Label } from '@/shared/components/ui/label';
 
 const Settings = () => {
@@ -48,6 +49,16 @@ const Settings = () => {
                   <Label>Multi-Factor Authentication:</Label> <MFADialog />
                 </div>
               </div>
+            </div>
+          </CardContent>
+        </Card>
+        <Card className="w-full mx-auto">
+          <CardHeader>
+            <CardTitle className="text-2xl">SMS</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="flex gap-4 items-center">
+              <SMS />
             </div>
           </CardContent>
         </Card>

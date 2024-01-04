@@ -1,5 +1,5 @@
 
-name: GA Installer
+name: GithubAction Installer
 on:
   workflow_dispatch:
 jobs:

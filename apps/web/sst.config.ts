@@ -165,6 +165,11 @@ export function llaveroStack({ stack, app }: StackContext) {
       effect: Effect.ALLOW,
       resources: [auth.userPoolArn],
     }),
+    new PolicyStatement({
+      actions: ['sns:CreateSMSSandboxPhoneNumber', 'sns:VerifySMSSandboxPhoneNumber', 'sns:ListSMSSandboxPhoneNumbers', 'sns:DeleteSMSSandboxPhoneNumber'],
+      effect: Effect.ALLOW,
+      resources: ['*'], 
+    })
   ]);
 
   stack.addOutputs({
