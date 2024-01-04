@@ -58,7 +58,7 @@
     "@types/react-dom": "^18",
     "@types/uuid": "^9.0.6",
     "autoprefixer": "^10.0.1",
-    "aws-cdk-lib": "2.95.1",
+    "aws-cdk-lib": "2.80.0",
     "constructs": "10.2.69",
     "eslint": "^8",
     "eslint-config-next": "13.4.19",
