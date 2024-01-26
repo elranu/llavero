@@ -65,7 +65,7 @@
     "@types/uuid": "^9.0.6",
     "@types/validator": "^13.11.8",
     "autoprefixer": "^10.0.1",
-    "aws-cdk-lib": "2.95.1",
+    "aws-cdk-lib": "2.80.0",
     "constructs": "10.2.69",
     "eslint": "^8",
     "eslint-config-next": "13.5.4",

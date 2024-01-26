@@ -82,7 +82,7 @@
     "@mui/material": "^5.14.17",
     "@mui/styled-engine-sc": "^6.0.0-alpha.2",
     "aws-cdk": "2.79.1",
-    "aws-cdk-lib": "2.79.1",
+    "aws-cdk-lib": "2.80.0",
     "aws-sdk": "2.1343.0",
     "cdk-assets": "2.95.1",
     "clsx": "^2.0.0",
