@@ -1,0 +1,23 @@
+{
+  "name": "kms-bitcoin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1633.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "ecpair": "^2.1.0",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "scripts": {
+    "test": "AWS_KEY_ID='98803f0a-bdab-42a2-8f62-71a14389f383' jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-typescript": "^7.24.6",
+    "babel-jest": "^29.7.0",
+    "jest": "^27.0.0",
+    "ts-jest": "^29.1.4"
+  }
+}
