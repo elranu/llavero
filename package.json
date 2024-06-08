@@ -6,7 +6,8 @@
   "private": true,
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "apps/service"
   ],
   "scripts": {
     "build": "yarn workspace web build",
