@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "typeRoots": ["./src", "../../node_modules/@types"],
+    "types": ["node", "scure-btc-signer", "jest"],
+    "paths": {
+      "@scure/btc-signer": ["../../node_modules/@scure/btc-signer"]
+    }
+  },
+  "include": ["src/**/*", "tests/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
