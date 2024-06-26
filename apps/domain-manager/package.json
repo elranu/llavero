@@ -1,0 +1,10 @@
+{
+  "name": "domain-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-cloudfront": "^3.600.0",
+    "@aws-sdk/client-route-53": "^3.600.0"
+  }
+}
