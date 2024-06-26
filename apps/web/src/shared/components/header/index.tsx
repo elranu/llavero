@@ -46,6 +46,10 @@ const Header = () => {
   const { user } = session || {};
   const { email } = user || {};
 
+  console.log('Rendering Header');
+  console.log('Session:', session);
+  console.log('Network:', network);
+
   const handleLogout = async () => {
     await signOut({ callbackUrl: REDIRECT_AFTER_LOGOUT_URL });
   };

@@ -15,6 +15,7 @@ type Props = {
 };
 
 function ClientLayout({ children }: Props) {
+  console.log('Rendering ClientLayout');
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
       <SessionProvider refetchInterval={5 * 60} refetchOnWindowFocus={true}>
